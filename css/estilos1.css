@@ -38,6 +38,11 @@ nav.navbar.navbar-expand-lg.text-white{
     background-color: #000;
 }
 
+.button-navbar-toggler-icon{
+    color:#fff !important;
+    z-index: 4;
+}
+
 img.w-25 { 
     align-items: center;
     width: 20vh !important;
@@ -48,6 +53,14 @@ img.w-25 {
 .trabajos { grid-area: trabajos; }
 .contacto { grid-area: contacto; }
 .bannerHero { grid-area: bannerHero; }
+
+.nav-link:hover{
+    background: rgb(224, 223, 223, 0.8);
+    color: crimson !important;
+    font-weight: bold;
+    transition: all 0.3s;
+    border-radius: 5px;
+}
 
 #carouselExampleCaptions{
     padding-top: 80px;
